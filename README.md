@@ -1,6 +1,6 @@
 # String Finder
 
-Submitted in Fevruary 2016 for the Programming Fundamentals module (SET07109), as part of the BEng Software Engineering (Hons) degree at Edinburgh Napier University.
+Submitted in February 2016 for the Programming Fundamentals module (SET07109), as part of the BEng Software Engineering (Hons) degree at Edinburgh Napier University.
 
 ## Description
 
