@@ -4,7 +4,7 @@ Submitted in February 2016 for the Programming Fundamentals module (SET07109), a
 
 ## Description
 
-The program (find.c) is designed to read a user specified text file and search for a single string that the user specifies.
+The program (`find.c`) is designed to read a user specified text file and search for a single string that the user specifies.
 The application will find the specified string within the text file and will print the string, the line number it was found on and
 the whole line itself where the string was located, to give context for the string. It will print the results to an output text file.
 
@@ -65,7 +65,7 @@ Failure to adhere to the correct format of searching may result in errors.
 
 ### Description of Makefile
 
-The makefile find.mak consists of the commands:
+The makefile `find.mak` consists of the commands:
 ```
 cl find.c
 find "Boba Fett" -i empire.txt -o boba.txt
@@ -78,16 +78,16 @@ cl find.c
 Step-by-step, this is:
 
 * Compile the program
-* Find the string "Boba Fett" in the file 'empire.txt' and output to the file 'boba.txt'
-* Find the string 'footloose' in the file 'footloose.txt' and output to the console. Also ignore case.
-* Find the string 'obama' in the file 'snowden.txt' and output to the file 'obama.txt'. Also ignore case.
+* Find the string "Boba Fett" in the file `empire.txt` and output to the file `boba.txt`
+* Find the string 'footloose' in the file `footloose.txt` and output to the console. Also ignore case.
+* Find the string 'obama' in the file `snowden.txt` and output to the file `obama.txt`. Also ignore case.
 * Compile the program (So the user can search for something)
 
 ### Files Used for this Application
 
-* find.c (C source file containing code)
-* find.mak (Makefile which builds the application, runs some test searches and allows the user to make searches)
+* `find.c` (C source file containing code)
+* `find.mak` (Makefile which builds the application, runs some test searches and allows the user to make searches)
 * A collection of three text (.txt) files to test the application on, consisting of:
-	* empire.txt (The script to the 1980 film 'The Empire Strikes Back')
-	* footloose.txt (The lyrics to the 1984 song 'Footloose', recorded by Kenny Loggins)
-	* snowden.txt (A transcript of an interview with American whistleblower Edward Snowden)
+	* `empire.txt` (The script to the 1980 film 'The Empire Strikes Back')
+	* `footloose.txt` (The lyrics to the 1984 song 'Footloose', recorded by Kenny Loggins)
+	* `snowden.txt` (A transcript of an interview with American whistleblower Edward Snowden)
